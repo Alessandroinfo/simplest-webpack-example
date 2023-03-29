@@ -1,0 +1,29 @@
+{
+  "name": "simplest-webpack-example",
+  "version": "1.0.0",
+  "description": "The simplest Webpack example you can find",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack",
+    "start": "serve dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Alessandroinfo/simplest-webpack-example.git"
+  },
+  "keywords": [
+    "webpack"
+  ],
+  "author": "Alessandro Russo",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Alessandroinfo/simplest-webpack-example/issues"
+  },
+  "homepage": "https://github.com/Alessandroinfo/simplest-webpack-example#readme",
+  "devDependencies": {
+    "html-webpack-plugin": "^5.5.0",
+    "serve": "^14.2.0",
+    "webpack": "^5.76.3",
+    "webpack-cli": "^5.0.1"
+  }
+}
